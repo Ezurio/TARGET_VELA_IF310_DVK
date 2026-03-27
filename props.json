@@ -1,0 +1,52 @@
+{
+    "core": {
+        "version": "1.0.1.43200"
+    },
+    "opt": {
+        "props": {
+            "capabilities": [
+                "arduino",
+                "bsp_gen4",
+                "bt",
+                "cat5",
+                "cyw55513",
+                "cyw55xxx",
+                "cyw955513evk_01",
+                "flash_0k",
+                "hal",
+                "i2c",
+                "i2s",
+                "led",
+                "low_power",
+                "mcu_gp",
+                "memory",
+                "pdm",
+                "pot",
+                "qspi",
+                "rtc",
+                "sdio",
+                "spi",
+                "sram_768k",
+                "switch",
+                "tdm",
+                "uart",
+                "wifi"
+            ],
+            "dependencies": {
+                "clib-support": "release-v1.8.0",
+                "core-lib": "release-v1.7.0",
+                "core-make": "release-v3.8.0",
+                "mtb-hal-cat5": "latest-v2.X",
+                "mtb-pdl-cat5": "latest-v4.X",
+                "recipe-make-cat5": "release-v1.6.0"
+            },
+            "docs_dir": "docs",
+            "flow_version": "2.0",
+            "min_tools": "3.1.0",
+            "template": {
+                "id": "mtb-template-cat5",
+                "version": "release-v1.0.0"
+            }
+        }
+    }
+}
