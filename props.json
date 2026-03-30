@@ -9,7 +9,6 @@
                 "bsp_gen4",
                 "bt",
                 "cat5",
-                "cyw55513",
                 "cyw55xxx",
                 "cyw955513evk_01",
                 "flash_0k",
@@ -29,8 +28,7 @@
                 "sram_768k",
                 "switch",
                 "tdm",
-                "uart",
-                "wifi"
+                "uart"
             ],
             "dependencies": {
                 "clib-support": "release-v1.8.0",
@@ -45,7 +43,7 @@
             "min_tools": "3.1.0",
             "template": {
                 "id": "mtb-template-cat5",
-                "version": "release-v1.0.0"
+                "version": "release-v3.0.0"
             }
         }
     }
